@@ -78,47 +78,47 @@ let myUndefined;
 
 // 11.
 let x = (false == 0);
-// A.
+// A. true
 
 
 // 12.
 let y = (false == "");
-// A.
+// A. true
 
 
 // 13.
 let z = (0 == "");
-// A.
+// A. true
 
 
 // 14.
 let a = (null == null);
-// A.
+// A. true
 
 
 // 25.
 let b = (undefined == undefined);
-// A.
+// A. true
 
 
 // 16.
 let c = (undefined == null);
-// A.
+// A. true
 
 
 // 17.
 let d = (null == false);
-// A.
+// A. true
 
 
 // 18.
 let e = (NaN == null);
-// A.
+// A. true 
 
 
 // 19.
 let f = (NaN == NaN);
-// A.
+// A. true
 
 
 // 20.
@@ -127,7 +127,7 @@ let f = (NaN == NaN);
 // A:
 let thirsty = true;
 
-{
+if (thirsty === true) {
   console.log("I'm parched!");
 } else {
   console.log("I've had enough to drink.");
