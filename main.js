@@ -113,7 +113,7 @@ let d = (null == false);
 
 // 18.
 let e = (NaN == null);
-// A. true 
+// A. true
 
 
 // 19.
@@ -127,7 +127,7 @@ let f = (NaN == NaN);
 // A:
 let thirsty = true;
 
-if (thirsty === true) {
+if (thirsty) {
   console.log("I'm parched!");
 } else {
   console.log("I've had enough to drink.");
@@ -143,7 +143,7 @@ if(x){
 } else {
 	console.log("False!");
 }
-// A:
+// A: False!
 
 
 // 22.
@@ -152,7 +152,7 @@ if(""){
 } else {
 	console.log("False!");
 }
-// A:
+// A: False!
 
 
 // 23.
@@ -164,7 +164,7 @@ if(x){
 } else {
 	console.log("False!");
 }
-// A:
+// A: False!
 
 
 // 24.
@@ -173,7 +173,7 @@ if(false){
 } else {
 	console.log("False!");
 }
-// A:
+// A: False!
 
 
 // 25.
@@ -182,7 +182,7 @@ if(-5 && 5){
 } else {
 	console.log("False!");
 }
-// A:
+// A: False!
 
 
 // 26.
@@ -191,7 +191,7 @@ if("Hello World!"){
 } else {
 	console.log("False!");
 }
-// A:
+// A: True!
 
 
 // 27.
@@ -200,7 +200,7 @@ if({}){
 } else {
 	console.log("False!");
 }
-// A:
+// A: False!
 
 
 // 28.
@@ -209,7 +209,7 @@ if({name: "Yehuda Katz"}){
 } else {
 	console.log("False!");
 }
-// A:
+// A: False!
 
 
 // 29.
@@ -218,7 +218,7 @@ if(new Date()){
 } else {
 	console.log("False!");
 }
-// A:
+// A: True
 
 
 // 30.
