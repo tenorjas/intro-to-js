@@ -113,12 +113,14 @@ let d = (null == false);
 
 // 18.
 let e = (NaN == null);
-// A. true
+console.log("NaN == null " + e);
+// A. false (I had previously answered true, I am now correcting my previous answer)
 
 
 // 19.
 let f = (NaN == NaN);
-// A. true
+console.log("NaN == NaN " + f);
+// A. false (I had previously answered true, I am now correcting my previous answer)
 
 
 // 20.
@@ -178,29 +180,29 @@ if(false){
 
 // 25.
 if(-5 && 5){
-	console.log("True!");
+	console.log("5True!");
 } else {
-	console.log("False!");
+	console.log("5False!");
 }
-// A: False!
+// A: True! (I had previously answered False, I am now correcting my previous answer)
 
 
 // 26.
 if("Hello World!"){
-	console.log("True!");
+	console.log("Hello World True!");
 } else {
-	console.log("False!");
+	console.log("Hello World False!");
 }
 // A: True!
 
 
 // 27.
 if({}){
-	console.log("True!");
+	console.log("empty brackets True!");
 } else {
-	console.log("False!");
+	console.log("empty brackets False!");
 }
-// A: False!
+// A: True! (I had previously answered False, I am now correcting my previous answer)
 
 
 // 28.
